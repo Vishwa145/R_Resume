@@ -3,6 +3,7 @@
 This is a Resume in form of a React App.
 
 ## Usage
+
 ```
 npm install
 
