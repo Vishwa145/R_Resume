@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Della+Respira&family=Ranchers&family=Teko:wght@300&display=swap");
+
+html,
+body,
+#root,
+.main {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b2bec3;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  color: #f5f6fa;
+}
+
+marquee {
+  font-family: "Della Respira", serif;
+  font-size: xx-large;
+}
+
+p {
+  font-family: "Teko", sans-serif;
+}
+
+.header {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  font: 12px;
+  text-transform: uppercase;
+  background-color: #596275;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  letter-spacing: 2.5px;
+  font-family: "Chango", cursive;
+  z-index: 100;
+  position: fixed;
+  padding: 2%;
+  left: 0;
+  top: 0;
+  margin: 1%;
+  width: 94%;
+  border-radius: 5%;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav a {
+  display: block;
+  color: #dff9fb;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.section {
+  height: 105%;
+  margin-top: -4vh;
+}
+
+#Home {
+  background-image: url("https://cdn.wallpapersafari.com/11/52/YxRayv.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-Sections {
+  display: flex;
+  padding: 200px 10px 200px 200px;
+}
+
+.content-Sections > div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.content-Sections > div:first-of-type {
+  border-right: 3px solid #dedede;
+  color: #0c2461;
+  width: 35%;
+}
+
+.content-Sections > div:last-of-type {
+  background-color: #fa983a;
+  width: 60%;
+}
+
+.about {
+  padding-left: 2vw;
+}
+
+.footer {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 2px;
+  font-family: "Ranchers", cursive;
+  text-align: center;
+  color: #dff9fb;
+  background-color: #130f40;
+}
+
+.profile {
+  border-radius: 100px;
+  position: relative;
+  height: 200px;
+}
+
+.welcome {
+  position: relative;
+  top: 15vw;
+  color: #dff9fb;
+}
+
+.met {
+  height: 50px;
+  width: 200px;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.backtotop {
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+}
+
+.card {
+  transform: translate(-1%, -1%);
+  transform-style: preserve-3d;
+  transition: 1s;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  height: 200px;
+  width: 200px;
+}
+
+.front {
+  background-image: url("profile.jpg");
+  background-size: cover;
+  border-radius: 100px;
+  transform: rotateX(0deg);
+  transition: 1s;
+  backface-visibility: hidden;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+}
+
+.back {
+  background-color: #192a56;
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  border-radius: 100px;
+  transform: rotateX(-180deg);
+  backface-visibility: hidden;
+  transition: 1s;
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: #dff9fb;
+  height: 200px;
+  width: 200px;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.links > a,
+p {
+  margin: 5%;
+}
+
+.copyresult {
+  background-color: #95a5a6;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+  position: absolute;
+  right: 50%;
+  bottom: 5%;
+  font-size: small;
+  width: fit-content;
+  height: fit-content;
+  z-index: 100;
+}
+
+.rotate {
+  transform: rotateZ(0deg);
+}
