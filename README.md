@@ -1,6 +1,6 @@
-# Finance Planner
+# Resume
 
-This is a React App for financial planning website, which demonstrate the many functionalities like mainly context API, structuring with help functional components, and use of Hooks.
+This is a Resume in form of a React App.
 
 ## Usage
 ```
